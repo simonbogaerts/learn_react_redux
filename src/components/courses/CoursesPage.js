@@ -30,7 +30,7 @@ class CoursePage extends React.Component {
     }
   }
 
-  asynchandleDeleteCourse = async course => {
+  handleDeleteCourse = async course => {
     toast.success("Course deleted.");
 
     try {
